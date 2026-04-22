@@ -1,0 +1,112 @@
+Aula 06 - Curso de JS
+
+
+		Comandos  Aprendidos
+
+
+-variável.toLocaleString()
+-document.write()
+
+		----------------------
+
+		Interiatividade com o Usuário
+
+Em JS é bem parecido com o VisualG ao printar e armazenar um dado, sendo diferente apenas na forma como se escreve o escreva().
+
+No VisualG:
+
+Escreval("Digite seu nome: ")
+leia(nome)
+escreva(nome)
+
+no JS: 
+var nome = window.prompt('Qual seu nome ?')
+window.alert('E um grande pazer te conhecer,' + nome) * É OBRIGATORIO O USO DO '+' ANTES DA VARIÁVEL 
+
+
+Percebe-se que não é necessário escrever para o comando ler a variável, sendo mais rápido
+
+		----------------------
+
+		Conversão de Tipos
+
+Para manipluar dados e trasncerve-los de string para inteiros deve-se usar o condicional de ' parseInt ' e caseo seja necessário o outro tipo pode-se usar o 'parseFloat', como por exemplo:
+
+
+var n1 = parseFloat(prompt('Digite um outro número'))
+var n2 = parseInt(prompt('Digite um outro número'))
+
+
+Para converter tudo em String existem os condicionais 'String(n)' e 'n.toString()'
+
+alert('A soma é'+ String(S))
+alert('A soma é'+ S,toString())
+
+		----------------------
+
+		Fomratação de Strings
+
+- OBS:
+* Para maiúsculas é só usar o pré-fixo .toUppercase()
+
+* Para minúsculas é só usar o pré-fixo .toLowercase()
+
+		----------------------
+
+Para deixar a digitação mais fluída do que ter que concatenar muitas vezes utiliza-se o ${}, como por exemplo :
+
+let nome = 'Davi'
+let idade = '23'
+let nota = '8.4'
+
+exemplo :
+
+'O aluno ${nome} de ${idade} anos, tirou na &{nota} prova'
+
+		----------------------
+
+
+		Formatação de Números
+
+Para usar casas decimaís grandes existe um processo chamado toFixed() que pode ser usado de maneira simples:
+
+Curiosidades:
+ 
+-podemos mostrar o uso correto da ' , ' ao digitar o método replace trocando o ' . ' por ' , '
+
+- A linha do (*) vemos uma linha onde usamos o método formatando a varável (n1) de acordo com a localidade
+
+
+exemplos:
+ 
+let  n1 = 60.50
+
+n1 = 60.5
+
+n1.toFixed(2) = 60.50
+
+n1.toFixed(2).replace('.', ',') = 60,50
+
+* n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
