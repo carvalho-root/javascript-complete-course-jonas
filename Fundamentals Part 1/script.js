@@ -1,0 +1,118 @@
+
+//Class 8
+/*
+let js = 'amazing';
+console.log(40+8+23-10);
+
+console.log('Davi');
+console.log(23);
+
+//Class 9
+
+let firstName = 'Davi';
+
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+// Variable name Conventions
+let davi_carvalho = 'DC';
+let $function = 29;
+
+
+let person = 'Vitoria'
+let PI = 3.1415
+
+let myFirstJob = 'Coder'
+let myCurrentJob = 'teacher'
+
+let job1 = 'programer'
+let job2 = 'teacher'
+
+console.log(myFirstJob);
+
+//Class 11
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+console.log(typeof true);
+console.log(typeof javascriptIsFun);
+console.log(typeof 23);
+console.log(typeof 'Jonas');
+
+javascriptIsFun = 'YES!';
+console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 1991;
+console.log(typeof year);
+
+console.log(typeof null);
+
+
+//Class 12
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+birthYear = 1990;
+const job;
+
+var job = 'programmer';
+job = 'teacher'
+
+lastName = 'Schmedtmann';
+console.log(lastName);
+
+//Class 13
+
+//Math Operators with Concat
+const now = 2040;
+const ageRelationship = 2025;
+const ageDavi = now - 2002;
+const ageVitoria = now - 2006;
+console.log(ageDavi, ageVitoria);
+
+console.log('together we have ' + (ageDavi + ageVitoria) / 2 +" years"+" and "+'our relationship have '+ (now - ageRelationship) +' years');
+
+//Assignment Operators
+let x = 10+ 5; //15
+x += 10; // x= x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
+x--; // x = x - 1 = 99
+console.log(x);
+
+//Copmparison Operator
+console.log(ageDavi > ageVitoria); // >, <, >=, <=
+console.log(ageVitoria >= 18);
+
+const isFullAge= ageVitoria >= 18;
+
+console.log((now - 2002) > (now - 2006))
+
+
+// Challenge 1
+
+const massMark = 78
+const heightMark = 1.69
+
+const massJohn = 92
+const heightJohn = 1.95
+
+const markBmi = 78 / (1.69 * 2)
+console.log(markBmi.toFixed(2))
+
+const johnBmi = 92 / (1.95 * 2)
+console.log(johnBmi.toFixed(2))
+
+const markHigherBMI = markBmi > johnBmi
+console.log(markHigherBMI)
+
+*/
