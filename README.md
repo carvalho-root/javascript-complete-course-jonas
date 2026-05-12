@@ -28,6 +28,8 @@ The course will be structured as follows:
 
 A textbook used as supplementary material during the course and for learning and mastering JavaScript and make this learning more smoother and engaging.
 
+<img src="https://github.com/carvalho-root/javascript-complete-course-jonas/blob/main/Pratice-test.PNG">
+
 ---
 
 ## 📈 Progress
