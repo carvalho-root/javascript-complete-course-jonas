@@ -115,4 +115,71 @@ console.log(johnBmi.toFixed(2))
 const markHigherBMI = markBmi > johnBmi
 console.log(markHigherBMI)
 
+
+const firstName = 'Davi';
+const job = 'Student';
+const birthYear= 2002;
+const year = 2027;
+
+const davi = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!' ;
+console.log(davi); 
+
+
+//It's more easy to write strings with ` `
+const daviNew = `I'm ${firstName}, a ${year - birthYear} years old ${job} !`;
+console.log(daviNew);
+
+console.log(`Just a regular string`);
+
+
+console.log('String with \n\
+    multiple \n\
+    lines');
+
+console.log(`String
+    multiple
+    lines`);
+    
+
+
+const age = 17;
+
+if(age >= 18){
+    console.log('Vitoria can start driving license 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Vitoria is to youg. Wait ${yearsLeft} years 😅 `)
+}
+
+const birthYear = 1999;
+
+let century;
+if(birthYear <= 2000){
+    century = 20;
+} else{
+    century = 21;
+}
+console.log(century)
+
+//Type Conversion
+const inputYear = '1991'
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 10);
+
+console.log(Number('Jonas'));
+console;log(typeof NaN);
+
+console.log(String(23), 23);
+
+
+//Type Coercion
+
+console.log('I am ' + 23 + ' years old');
+console.log('23' - '10' - 3); // print 10
+console.log('23' / '2');
+
+let n = '1' + 1; // '11'
+n = n - 1;
+console.log(n);
+
 */
