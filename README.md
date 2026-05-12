@@ -4,10 +4,9 @@ Repository dedicated to my studies and projects developed during the course.
 
 ---
 
-## 🛠️ Method Used
+## 🛠️ Method and Stacks Used
 
 The course will be taught in a fluid and engaging manner, with one section covered per week applying a technical <strong> 70 / 30, 70% exercise and 30% watch </strong> , followed by a project at the end of the week that applies the knowledge gained. The focus is not on immediate efficiency, but rather on mastering the language while applying HTML and CSS technologies.
-
 <div align="center">
     <img src="https://skillicons.dev/icons?i=html,css,js"/>
 </div>
@@ -21,14 +20,21 @@ The course will be structured as follows:
 * **Thursday** - 3/5 classes
 * **Friday** - Challenge
 * **Saturday** - Project
-&nbsp;
+
+## 🧠 Enhanced Learning with AI & IRT
+To maximize knowledge retention, I developed a custom evaluation system using ChatGPT and Claude.ai. After each module, I undergo a rigorous practice test designed to validate my proficiency.
+
+* **Custom Practice Tests** - Each test consists of 40 multiple-choice questions specifically tailored to the day's topics.
+* **Difficulty Scaling** - Questions are strategically divided into Easy, Medium, and Hard levels.
+* **IRT-Inspiration** - Using principles from Item Response Theory (IRT), the goal is to maintain consistency. The system prioritizes mastering fundamental (easy) questions to ensure a solid foundation before tackling complex challenges.
+
+<img src="https://github.com/carvalho-root/javascript-complete-course-jonas/blob/main/Pratice-test.PNG">
+
 ## 📚 Additional Reading - <br> Data Structure and Algorithms with Javascript by Loiane Groner
 
 * **Note** - I am currently studying the Brazilian Portuguese edition (*Estruturas de Dados e Algoritmos com JavaScript*) as it aligns with my current learning path.
 
 A textbook used as supplementary material during the course and for learning and mastering JavaScript and make this learning more smoother and engaging.
-
-<img src="https://github.com/carvalho-root/javascript-complete-course-jonas/blob/main/Pratice-test.PNG">
 
 ---
 
