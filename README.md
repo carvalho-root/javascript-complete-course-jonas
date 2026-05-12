@@ -28,7 +28,7 @@ To maximize knowledge retention, I developed a custom evaluation system using Ch
 * **Difficulty Scaling** - Questions are strategically divided into Easy, Medium, and Hard levels.
 * **IRT-Inspiration** - Using principles from Item Response Theory (IRT), the goal is to maintain consistency. The system prioritizes mastering fundamental (easy) questions to ensure a solid foundation before tackling complex challenges.
 
-<img src="https://github.com/carvalho-root/javascript-complete-course-jonas/blob/main/Pratice-test.PNG">
+<img src="https://raw.githubusercontent.com/carvalho-root/javascript-complete-course-jonas/main/practice-test.PNG"/>
 
 ## 📚 Additional Reading - <br> Data Structure and Algorithms with Javascript by Loiane Groner
 
