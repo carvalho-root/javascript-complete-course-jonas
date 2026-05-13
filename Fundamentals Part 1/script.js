@@ -183,3 +183,70 @@ n = n - 1;
 console.log(n);
 
 */
+
+/*
+// Classes 13/05/26
+
+// 5 falsy values: 0, '' , undefined, null, NaN
+
+console;log(Boolean(0));
+console;log(Boolean(undefined));
+console;log(Boolean('Davi'));
+console;log(Boolean({}));
+console;log(Boolean(''));
+
+const monmey = 0;
+
+if(money){
+    console.log("Don't spend it at all");
+} else {
+    console;log('You should get a job!');
+}
+
+//Console test
+
+let height;
+if(height){
+    console.log('YAY height is DEFINED');
+} else {
+    console.log('Height is UNDEFINED');
+}
+
+//Equality Operators
+
+const age = '18';
+if(age === 18) console.log('You just became an adult :D (strict)');
+
+if(age == 18) console.log('You just became an adult :( (looser)');
+
+window.alert('Pick a number bteween 10 and 30')
+let favorite = Number(prompt("What's your favorite number?"));
+
+if(favorite > 30) {
+    console.log("The number is not among the expected ones. Please try again.")
+    window.alert('Please, pick a number between 10 and 30')
+    favorite = Number(prompt("What's yout favorite number?"))
+}
+ if(favorite <= 30) {
+    console.log(`Cool, ${favorite} is an amazing number!`)
+}
+
+
+//Boolean Lógic
+
+const hasDriverLincense = true; // A
+const hasGoodVision = false; //B
+
+console.log(hasDriverLincense && hasGoodVision);
+console.log(hasDriverLincense || hasGoodVision);
+console.log(!hasDriverLincense);
+
+// if(hasDriverLincense && hasGoodVision) console.log('Sarah can drive');
+// else console.log("Sarah can't drive"); 
+
+const isTired= false; // C
+console.log(hasDriverLincense || hasGoodVision || !isTired);
+
+if(hasDriverLincense && hasGoodVision && isTired) console.log('Sarah can drive');
+else console.log("Sarah can't drive"); 
+*/
